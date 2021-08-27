@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "38093382302",
+    "firebase_url": "https://vec-app-3d56e-default-rtdb.firebaseio.com",
+    "project_id": "vec-app-3d56e",
+    "storage_bucket": "vec-app-3d56e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:38093382302:android:91f5d865e196c68d66518f",
+        "android_client_info": {
+          "package_name": "com.example.itvec"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "38093382302-0v5quv2ppp6lhl39k8ur9l73kn1i2lil.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDgTFrnBKt8-ZNDnQRvQPutksL9nnkx1Jk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "38093382302-0v5quv2ppp6lhl39k8ur9l73kn1i2lil.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:38093382302:android:1e554e469a6d10e066518f",
+        "android_client_info": {
+          "package_name": "com.example.vecadminapp1"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "38093382302-0v5quv2ppp6lhl39k8ur9l73kn1i2lil.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDgTFrnBKt8-ZNDnQRvQPutksL9nnkx1Jk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "38093382302-0v5quv2ppp6lhl39k8ur9l73kn1i2lil.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

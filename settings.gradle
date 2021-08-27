@@ -1,0 +1,2 @@
+include ':app'
+rootProject.name = "VEC ADMIN APP 1"

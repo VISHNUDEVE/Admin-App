@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UploadPdfActivity">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+
+
+<com.google.android.material.card.MaterialCardView
+    android:layout_width="130dp"
+    android:layout_height="150dp"
+    android:layout_margin="10dp"
+    android:id="@+id/addpdf"
+    android:layout_gravity="center"
+    app:cardElevation="5dp">
+
+
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical">
+
+<ImageView
+    android:layout_width="112dp"
+    android:layout_height="120dp"
+    android:background="@drawable/circle_green"
+    android:padding="15dp"
+    android:src="@drawable/ic_pdf" />
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="1dp"
+    android:padding="0dp"
+    android:text="Upload PDF"
+    android:textColor="@color/textcolor"
+    android:textStyle="bold" />
+
+
+<View
+    android:layout_width="match_parent"
+    android:layout_height="1dp"
+    android:layout_marginTop="10dp"
+    android:background="@color/lightgray" />
+
+
+</LinearLayout>
+
+</com.google.android.material.card.MaterialCardView>
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="No Files Selected"
+    android:id="@+id/pdftextview"
+    android:layout_gravity="center"
+    android:textSize="15dp"
+    android:textStyle="bold" />
+
+
+
+
+<com.google.android.material.textfield.TextInputLayout
+    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+    android:layout_width="match_parent"
+    android:layout_marginTop="16dp"
+    android:layout_height="match_parent">
+
+<com.google.android.material.textfield.TextInputEditText
+    android:id="@+id/ebookname"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:hint="Name of Book" />
+</com.google.android.material.textfield.TextInputLayout>
+
+<com.google.android.material.button.MaterialButton
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Upload "
+    android:layout_marginTop="16dp"
+    android:textAllCaps="false"
+    android:id="@+id/pdfbtn"/>
+
+
+</LinearLayout>
+
+
+</ScrollView>
